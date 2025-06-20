@@ -6,3 +6,4 @@ export default defineConfig({
   base: '/World_Tour_With_React/', 
   plugins: [react()],
 })
+

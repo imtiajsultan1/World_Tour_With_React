@@ -8,7 +8,7 @@ const Countries = () => {
     const [visitedCountries, setVisitedCountries] = useState([]);
 
   useEffect(()=>{
-    fetch('https://restcountries.com/v3.1/all')
+    fetch('https://restcountries.com/v3.1/independent?status=true')
     .then(response => response.json())
     .then(data => setCountries(data))
   },[])
